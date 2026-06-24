@@ -1,0 +1,62 @@
+TICKET TITLE:
+Windows Troubleshooting Tools - Event Viewer, Services, and msconfig Configuration
+
+ISSUE:
+Learning and practicing core Windows troubleshooting tools used in L1 IT support including Event Viewer, Services management, and system configuration.
+
+TASKS COMPLETED:
+
+1. EVENT VIEWER EXPLORATION:
+   - Opened Event Viewer (eventvwr command)
+   - Explored Windows Logs structure (Application, Security, Setup, System, Forwarded Events)
+   - Navigated Application log and identified various event levels (Information, Warning, Error)
+   - Found and analyzed Event ID 1002 (Application Hang - StartMenuExperienceHost.exe)
+   - Navigated System log and found Event ID 1040 (TPM WMI - critical component failure)
+   - Learned event ID meanings and how to interpret error logs
+   - Understood how IT support uses Event Viewer to diagnose issues
+
+2. SERVICES.MSC MANAGEMENT:
+   - Opened Services management console (services.msc command)
+   - Identified hundreds of services and their status (Running/Stopped)
+   - Found Windows Update service (wuauserv) - Status: Stopped, Startup Type: Manual
+   - Located Print Spooler service - Status: Running
+   - Successfully stopped Print Spooler service to simulate broken printer
+   - Successfully restarted Print Spooler service to restore functionality
+   - Learned service startup types (Automatic, Manual, Disabled)
+   - Understood real-world troubleshooting scenario: printer issues resolved via service restart
+
+3. MSCONFIG EXPLORATION:
+   - Opened System Configuration tool (msconfig command)
+   - Explored General tab - confirmed Normal Startup mode
+   - Reviewed Services tab showing services loaded at startup
+   - Found Windows Update (Stopped) and Windows Audio (Running) services
+   - Learned about Diagnostic and Selective startup modes for troubleshooting
+   - Understood that Startup apps tab moved to Task Manager in Windows 11
+
+4. ERROR CREATION AND INVESTIGATION:
+   - Force-closed LinkedIn application from Task Manager
+   - Successfully located error in Event Viewer Application log
+   - Found Event ID 1002 (Application Hang)
+   - Source: Application Hang
+   - Description: LinkedIn stopped interacting with Windows and was closed
+   - Learned how to find and interpret application crash errors
+
+LEARNING OUTCOMES:
+- Proficiency with Event Viewer for reading error logs
+- Ability to manage services (start/stop/restart)
+- Understanding of service startup types
+- Knowledge of msconfig for troubleshooting
+- Real-world troubleshooting methodology
+
+SKILLS GAINED:
+✓ Read and interpret Windows error logs
+✓ Manage system services
+✓ Troubleshoot service-related issues
+✓ Use system configuration tools
+✓ Document technical findings professionally
+
+STATUS:
+Learning Completed
+
+CATEGORY:
+Windows Troubleshooting / System Services / Error Diagnosis
