@@ -1,0 +1,21 @@
+TICKET TITLE:
+User PC slow performance resolved via resource management
+
+ISSUE:
+User reported slow system performance and high resource usage
+
+TROUBLESHOOTING STEPS:
+- Opened Task Manager and observed CPU at 84% and RAM at 2.0/2.2GB
+- Identified multiple open applications causing high resource usage
+- Closed unnecessary applications and browser tabs
+- Disabled OneDrive and VirtualBox from startup programs
+- Verified improvement - CPU dropped to 65% RAM to 1.6GB
+
+RESOLUTION:
+Performance improved after closing unnecessary apps and optimizing startup programs
+
+STATUS:
+Resolved
+
+CATEGORY:
+Performance / System Optimization
