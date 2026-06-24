@@ -1,0 +1,32 @@
+TICKET TITLE:
+Windows Architecture - User Accounts, File System, and Registry Documentation
+
+ISSUE:
+Learning and documenting Windows 11 architecture components including user management, file system structure, and Registry basics.
+
+TASKS COMPLETED:
+
+1. USER ACCOUNT MANAGEMENT:
+   - Created 3 local user accounts (Employee1, Employee2, Employee3)
+   - Set passwords for each user account
+   - Verified user creation via Control Panel (control userpasswords2)
+   - Tested login functionality with Employee1 account
+   - Confirmed user account separation and isolation
+
+2. FILE SYSTEM EXPLORATION:
+   - Navigated C:\Users directory structure
+   - Identified user profile folders (ITSupportLab, Employee1, Public)
+   - Explored user profile contents (Desktop, Documents, Downloads, Pictures, Videos, AppData, Music)
+   - Located AppData folder containing application settings
+   - Understood AppData subfolders (Local, LocalLow, Roaming)
+   - Learned file system hierarchy and user profile organization
+
+3. REGISTRY BASICS:
+   - Opened Registry Editor (regedit)
+   - Identified main HKEY locations
+   - Explored Control Panel and Software registry keys
+   - Understood Registry value types (REG_SZ, REG_DWORD, REG_BINARY)
+   - Learned Registry structure and organization
+
+LEARNING OUTCOMES:
+- Understand user account
