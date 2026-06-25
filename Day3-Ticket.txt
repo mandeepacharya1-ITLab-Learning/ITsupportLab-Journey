@@ -1,0 +1,113 @@
+TICKET TITLE:
+Command Line Networking & System Diagnostics - DNS Troubleshooting and System Health Checks
+
+ISSUE:
+Learning and practicing essential command line tools used by IT support technicians for network diagnostics, system file verification, and disk health monitoring.
+
+TASKS COMPLETED:
+
+1. IPCONFIG - NETWORK CONFIGURATION:
+   - Opened Command Prompt
+   - Ran ipconfig command to view network settings
+   - Ran ipconfig /all for detailed network information
+   - Identified key network information:
+     * IPv4 and IPv6 addresses
+     * MAC address
+     * DHCP server and lease information
+     * DNS servers
+   - Understood how to diagnose network configuration issues
+   - Real scenario: User cannot connect to network → Check ipconfig for IP assignment
+
+2. PING - INTERNET CONNECTIVITY TEST:
+   - Tested internet connectivity using ping 8.8.8.8
+   - Successfully pinged Google's DNS server
+   - Observed round-trip time and response from remote server
+   - Tested DNS by pinging google.com (domain name)
+   - Verified both internet connection AND DNS were working
+   - Learned ping is first diagnostic tool for network issues
+
+3. TRACERT - NETWORK PATH TRACING:
+   - Ran tracert google.com to trace network path
+   - Observed each hop (router/server) along the path
+   - Viewed response times at each hop
+   - Understood how to identify slow network segments
+   - Real scenario: User reports slow website → tracert shows which hop is slow
+
+4. NSLOOKUP - DNS RESOLUTION:
+   - Ran nslookup google.com to lookup domain IP address
+   - Observed DNS server response with IP address
+   - Verified DNS translation working correctly
+   - Understood how to test DNS independently
+   - Real scenario: Website loads wrong page → nslookup confirms correct IP returned
+
+5. NETSTAT - NETWORK CONNECTIONS:
+   - Ran netstat to view all network connections
+   - Observed protocol, local address, foreign address, and connection state
+   - Ran netstat -ano for detailed connection information with Process IDs
+   - Learned how to identify suspicious network connections
+   - Real scenario: PC slow/suspected malware → netstat shows which app is connecting to unknown servers
+
+6. SFC (SYSTEM FILE CHECKER):
+   - Opened Command Prompt as Administrator
+   - Ran sfc /scannow to scan system files
+   - System scan completed successfully
+   - Understands sfc repairs corrupted Windows system files automatically
+   - Real scenario: PC crashing randomly → sfc finds and fixes corrupted files
+
+7. CHKDSK - DISK HEALTH CHECK:
+   - Ran chkdsk command to check hard disk for errors
+   - Scan completed successfully
+   - Observed disk allocation information
+   - Learned to identify bad sectors and disk corruption
+   - Real scenario: PC freezing → chkdsk detects bad disk sectors → Replace hard drive
+
+8. DNS TROUBLESHOOTING LAB (SIMULATED):
+   - Intentionally broke DNS by changing DNS server to 255.255.255.255 (invalid)
+   - Ran ping google.com → Result: "Could not find host" (DNS broken)
+   - Diagnosed problem: DNS configuration issue
+   - Fixed DNS by changing back to Automatic (DHCP)
+   - Retested ping google.com → Result: Success (DNS restored)
+   - Completed full troubleshooting cycle: Break → Diagnose → Fix → Verify
+
+COMMAND REFERENCE:
+Command               Purpose
+ipconfig              View network configuration
+ipconfig /all         View detailed network information
+ping [address]        Test connectivity to server
+tracert [address]     Trace network path
+nslookup [domain]     Look up IP address for domain
+netstat               View network connections
+netstat -ano          View connections with Process IDs
+sfc /scannow          Scan and repair system files
+chkdsk                Check disk for errors
+
+LEARNING OUTCOMES:
+- Proficiency with command line diagnostic tools
+- Understanding of network troubleshooting methodology
+- Ability to diagnose connectivity issues (internet, DNS, network)
+- Knowledge of system file verification and repair
+- Understanding of disk health monitoring
+- Real-world troubleshooting skills: identify → diagnose → fix → verify
+
+REAL IT SCENARIOS PRACTICED:
+- User can't access websites → Use ipconfig, ping, nslookup
+- Internet is slow → Use tracert to find slow segments
+- Suspected malware → Use netstat to find suspicious connections
+- PC crashing → Use sfc to repair corrupted files
+- PC freezing/slow → Use chkdsk to detect bad sectors
+- Network configuration issues → Use ipconfig to diagnose
+
+SKILLS GAINED:
+✓ Command line proficiency
+✓ Network diagnostics
+✓ DNS troubleshooting
+✓ System file checking
+✓ Disk health monitoring
+✓ Systematic problem-solving methodology
+✓ Real-world troubleshooting experience
+
+STATUS:
+Learning Completed
+
+CATEGORY:
+Command Line / Network Diagnostics / System Administration
