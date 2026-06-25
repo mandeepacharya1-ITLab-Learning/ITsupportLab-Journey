@@ -1,0 +1,96 @@
+TICKET TITLE:
+Software Installation, Repair, and Uninstallation - Complete Software Lifecycle Management
+
+ISSUE:
+Learning and practicing complete software lifecycle management including installation, repair, and uninstallation of applications on Windows systems.
+
+TASKS COMPLETED:
+
+1. SOFTWARE INSTALLATION PHASE:
+   - Installed Adobe Acrobat Reader from official source (get.adobe.com)
+   - Downloaded and installed VLC Media Player from videolan.org
+   - Downloaded and installed 7-Zip from 7-zip.org
+   - Followed proper installation procedures for each software:
+     * Downloaded installers
+     * Ran .exe files
+     * Accepted license agreements
+     * Followed installation prompts
+     * Completed installations successfully
+   - Verified each installation by launching applications
+   - Learned to find legitimate software sources
+   - Practiced safe download and installation procedures
+
+2. SOFTWARE REPAIR PHASE:
+   - Located Adobe Reader in Programs and Features
+   - Accessed Change/Modify options
+   - Selected Repair function from Adobe Reader installer
+   - Repair process scanned and fixed corrupted files
+   - Successfully completed repair
+   - Verified Adobe Reader continues to function properly
+   - Learned how to troubleshoot software issues without uninstalling
+   - Understood repair as alternative to complete reinstall
+
+3. SOFTWARE UNINSTALLATION PHASE:
+   - Located 7-Zip in Programs and Features
+   - Selected uninstall option
+   - Followed uninstallation prompts
+   - Successfully removed 7-Zip from system
+   - Verified uninstallation by checking Programs and Features list
+   - Learned proper removal procedure
+   - Understood importance of clean uninstallation
+
+REAL IT SCENARIOS PRACTICED:
+
+Scenario 1 — New Employee Setup:
+- User needs software installed
+- IT tech: Downloads and installs Adobe Reader, VLC, 7-Zip
+- Result: ✅ Employee ready to work
+
+Scenario 2 — Software Malfunction:
+- User reports: "Adobe Reader keeps crashing"
+- IT tech: Uses Repair function from Programs and Features
+- Result: ✅ Adobe Reader fixed without reinstalling
+
+Scenario 3 — Software Cleanup:
+- Company no longer uses 7-Zip
+- IT tech: Uninstalls 7-Zip from system
+- Result: ✅ Disk space freed, system cleaned
+
+LEARNING OUTCOMES:
+- Complete understanding of software installation procedures
+- Knowledge of repair/fix functions for broken software
+- Proficiency with Programs and Features control panel
+- Understanding of software lifecycle management
+- Ability to troubleshoot software issues
+- Safe installation practices from legitimate sources
+
+SOFTWARE MANAGEMENT CHECKLIST:
+Install from legitimate/official sources
+Follow installation prompts carefully
+Accept license agreements
+Verify installation after completion
+Use Repair function for issues (before uninstalling)
+Properly uninstall unused software
+Clean up temporary installation files
+
+SKILLS GAINED:
+Software installation procedures
+Troubleshooting software issues
+Software repair/modification
+Software uninstallation
+Programs and Features management
+Safe downloading practices
+Complete software lifecycle management
+
+REAL IT SUPPORT APPLICATIONS:
+- Employee onboarding (install required software)
+- Software troubleshooting (repair broken apps)
+- System maintenance (uninstall unused software)
+- Performance optimization (remove unnecessary programs)
+- Compliance management (ensure correct software versions)
+
+STATUS:
+Learning Completed
+
+CATEGORY:
+Software Support / Application Management / System Administration
