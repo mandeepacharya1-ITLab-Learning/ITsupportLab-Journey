@@ -6,37 +6,7 @@ Welcome! This repository documents my daily IT Support Level 1 training and hand
 
 I am learning practical IT support skills through daily hands-on labs, real-world troubleshooting, and professional documentation. Each day I complete labs, troubleshoot issues, and write professional support tickets.
 
-**New content is added DAILY! Check back regularly for updates.**
-
----
-
-## 📅 Training Progress
-
-### Day 1 — Windows Architecture & VM Setup ✅
-- VirtualBox installation and Windows 11 VM creation
-- Windows basics exploration
-- Task Manager analysis and performance troubleshooting
-- Settings vs Control Panel comparison
-- Startup optimization
-- Created 3 local user accounts
-- File system exploration (C:\Users directory structure)
-- Registry basics and navigation
-- **Tickets created:** Day1-Part1-Ticket, Day1-Part2-Ticket
-
-### Day 2 — System Troubleshooting Tools ✅
-- Event Viewer exploration (reading error logs)
-- Analyzed real Windows errors (Event ID 1002, 1040)
-- Services.msc management (start/stop services)
-- Print Spooler service troubleshooting
-- msconfig system configuration
-- Created and located application errors
-- **Ticket created:** Day2-Ticket
-
-### Day 3 — Coming Soon ⏳
-- Device Manager
-- Disk Management
-- Driver troubleshooting
-
+**
 ---
 
 ## 🎯 Skills Developed
