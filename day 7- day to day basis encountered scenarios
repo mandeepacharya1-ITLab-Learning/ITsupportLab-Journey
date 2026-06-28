@@ -1,0 +1,343 @@
+TICKET TITLE:
+Google Chrome Application Not Responding - Resolved via Application Restart
+
+ISSUE:
+User reported that Google Chrome would not open. Clicking Chrome icon resulted in no response.
+
+TROUBLESHOOTING STEPS:
+- Checked Chrome icon on desktop
+- Attempted to launch application
+- No response observed initially
+- Opened Task Manager to check process status
+- Force-closed Chrome process from Task Manager
+- Attempted to relaunch Chrome
+
+RESOLUTION:
+Chrome application restarted and opened successfully. User confirmed full functionality restored.
+
+ROOT CAUSE:
+Application hang/frozen process. Common cause: Browser accumulation of data, extensions, or temporary files.
+
+PREVENTION:
+User advised to:
+- Regularly clear browser cache
+- Disable problematic extensions
+- Restart browser weekly
+
+STATUS:
+Resolved
+
+CATEGORY:
+Application Support / Software Troubleshooting
+
+  
+TICKET TITLE:
+Printer Offline - Device Not Detected - Troubleshooting Process Documented
+
+ISSUE:
+User reported printer showing offline status. Unable to print documents. Printer not appearing in Devices list.
+
+TROUBLESHOOTING STEPS PERFORMED:
+1. Checked Devices → Printers & Scanners in Windows Settings
+2. Verified no printers currently listed or connected
+3. Confirmed printer power status (asked user to verify)
+4. Checked for USB connection if applicable
+5. Verified printer driver installation status
+
+DIAGNOSTIC FINDINGS:
+- Printer not detected by Windows
+- No printer devices visible in Settings
+- Suggests either:
+  * Printer not powered on
+  * USB/Network connection issue
+  * Printer driver not installed
+  * Printer hardware failure
+
+RESOLUTION STEPS PROVIDED TO USER:
+1. Power cycle printer (turn off 30 seconds, turn on)
+2. Check USB cable/network connection
+3. Go to printer manufacturer website
+4. Download latest printer driver for Windows 11
+5. Install driver and restart computer
+6. Printer should appear in Devices list
+
+IF PROBLEM PERSISTS:
+- Check Device Manager for unknown devices
+- Uninstall and reinstall printer driver
+- Check printer manual for troubleshooting
+- Contact printer manufacturer support
+- Consider hardware replacement if driver/connection confirmed working
+
+REAL IT SCENARIO:
+Similar issues occur when:
+- New printer first setup
+- Printer driver corrupted
+- USB cable disconnected
+- Network printer loses connection
+- Windows update removes driver
+
+STATUS:
+Troubleshooting Guide Provided to User
+
+CATEGORY:
+Hardware Support / Printer Troubleshooting / Peripheral Devices
+
+TICKET TITLE:
+PC Performance Degradation - Slow System Response - High Disk Activity Identified
+
+ISSUE:
+User reported system running extremely slowly. All tasks taking longer than normal. System appears unresponsive at times.
+
+SYSTEM ANALYSIS PERFORMED:
+Opened Task Manager and checked Performance metrics:
+
+Current Resource Usage:
+- CPU: 8% (Normal range)
+- Memory: 4.4 GB of 7.9 GB (56% used - Acceptable)
+- Disk (HDD): Fluctuating 7-98% (Very High Activity - Problem!)
+- Secondary Disk: 0% (Not in use)
+
+ROOT CAUSE IDENTIFIED:
+High disk activity indicates background processes heavily using hard drive:
+- Possible Windows Update running
+- Antivirus full system scan
+- Windows Indexing Service
+- Disk defragmentation
+- Temporary file cleanup
+- Malware scanning
+
+TROUBLESHOOTING STEPS TAKEN:
+1. Analyzed Task Manager Performance tab
+2. Identified disk as performance bottleneck
+3. Checked which processes using disk (from Processes tab)
+4. Explained findings to user
+
+RESOLUTION PROVIDED:
+Short-term:
+- Close all unnecessary applications
+- Wait for background processes to complete (may take 15-30 minutes)
+- Avoid opening large files while disk is busy
+
+Long-term:
+- Upgrade HDD to SSD (biggest performance improvement!)
+- Disable unnecessary Windows services
+- Schedule antivirus scans for off-hours
+- Clear temporary files regularly
+- Check for malware
+
+PERFORMANCE IMPROVEMENT OPTIONS:
+1. Immediate: Restart computer, disable startup apps
+2. Short-term: Clean disk, update drivers
+3. Long-term: Upgrade HDD to SSD (massive speed boost!)
+
+REAL IT KNOWLEDGE:
+- HDD (spinning disk) is slowest part of modern PC
+- SSD would make THIS system 5-10x faster
+- High disk activity = Primary cause of slowness
+- Often overlooked by users (they focus on RAM/CPU)
+
+STATUS:
+Root Cause Identified - Solution Provided
+
+CATEGORY:
+Performance Optimization / System Troubleshooting / Hardware Upgrade Recommendation
+
+
+  
+  TICKET TITLE:
+Wi-Fi Connectivity Issue - Internet Connection Lost - Troubleshooting Performed
+
+ISSUE:
+User reported no internet connectivity. Unable to connect to Wi-Fi network. No network access.
+
+TROUBLESHOOTING STEPS PERFORMED:
+
+1. NETWORK STATUS CHECK:
+   - Checked Wi-Fi icon in system tray (taskbar)
+   - Verified network adapter status
+   - Confirmed no active Wi-Fi connection
+
+2. BASIC CONNECTIVITY TEST:
+   - Opened Command Prompt
+   - Ran: ping google.com
+   - Analyzed response (success/failure)
+   - Tested connectivity to remote server
+
+3. NETWORK DIAGNOSIS:
+   - Checked available Wi-Fi networks
+   - Attempted to connect to known network
+   - Verified correct password entered
+   - Checked network signal strength
+
+POTENTIAL ROOT CAUSES:
+- Wi-Fi router offline or not broadcasting
+- Network adapter disabled
+- Wi-Fi driver issue
+- Incorrect network password
+- IP address conflict
+- Network settings corrupted
+- ISP outage
+
+RESOLUTION STEPS PROVIDED:
+
+Immediate Actions:
+1. Restart Wi-Fi router (unplug 30 seconds, plug back in)
+2. Enable Wi-Fi on laptop (check Airplane Mode OFF)
+3. Forget network and reconnect
+4. Restart computer
+
+If problem persists:
+1. Check Device Manager for Network Adapter status
+2. Update network drivers from manufacturer website
+3. Run Network Troubleshooter (Settings → Network)
+4. Reset network settings
+5. Contact ISP if router/modem offline
+
+ADVANCED TROUBLESHOOTING:
+- Use ipconfig command to check IP address
+- Use ipconfig /all for detailed network info
+- Use ping to test connectivity
+- Check Event Viewer for network errors
+- Verify router is broadcasting SSID
+- Check if other devices can connect
+
+REAL IT KNOWLEDGE APPLIED:
+- Used Command Prompt (ping) for connectivity test
+- Checked network adapter status
+- Identified potential hardware vs software issue
+- Provided systematic troubleshooting approach
+
+COMMON CAUSES IN REAL SCENARIOS:
+- 40% = Router/ISP issue
+- 30% = Network driver issue
+- 20% = Disabled network adapter
+- 10% = Corrupted network settings
+
+PREVENTION TIPS FOR USER:
+- Note down router settings
+- Keep router in cool, ventilated area
+- Restart router monthly
+- Update router firmware regularly
+- Keep network drivers updated
+
+STATUS:
+Troubleshooting Guide Provided - Awaiting User Feedback
+
+CATEGORY:
+Network Support / Connectivity Troubleshooting / Wi-Fi Configuration
+
+TICKET TITLE:
+User Account Access - Forgotten Password - Account Recovery Procedure
+
+ISSUE:
+User unable to log into Windows account. Forgotten password. Account locked out.
+
+USER VERIFICATION:
+- Confirmed user identity via employee ID
+- Asked security questions to verify ownership
+- Documented in ticket for security compliance
+
+TROUBLESHOOTING OPTIONS PROVIDED:
+
+OPTION 1 - Microsoft Account Password Reset:
+If user set up Microsoft Account login:
+1. Click "I forgot my password" on login screen
+2. Answer security questions
+3. Receive password reset link via email
+4. Create new password
+5. Login with new password
+
+OPTION 2 - Password Reset Disk:
+If password reset disk was created previously:
+1. Insert password reset disk
+2. Click "Reset Password" on login screen
+3. Follow wizard to create new password
+4. Login with new password
+
+OPTION 3 - Administrator Reset:
+If admin account available on system:
+1. Login to admin account
+2. Go to Settings → Accounts → Other users
+3. Select user account
+4. Click "Reset password"
+5. Create temporary password
+6. Provide to user
+7. User changes password on next login
+
+OPTION 4 - IT Department Reset:
+If no other options available:
+1. Document request formally
+2. Verify user identity through HR
+3. Use IT admin account to reset password
+4. Generate temporary password
+5. User changes on first login
+6. Document in ticket for audit trail
+
+SECURITY PROTOCOL FOLLOWED:
+✓ Verified user identity before proceeding
+✓ Did not provide password over phone
+✓ Generated temporary password (forces change)
+✓ Documented all steps in ticket
+✓ Created audit trail for compliance
+✓ Advised user to use strong password
+
+PASSWORD BEST PRACTICES PROVIDED TO USER:
+- Use combination of uppercase, lowercase, numbers, symbols
+- Minimum 8 characters (12+ recommended)
+- Avoid personal information (names, birthdays, etc)
+- Don't reuse passwords
+- Consider using password manager
+- Never share password with anyone
+- Change password every 90 days (company policy)
+
+PREVENTION FOR FUTURE:
+- Create password reset disk now
+- Set up security questions
+- Use Microsoft Account login (cloud recovery)
+- Write down hint (not actual password)
+- Store recovery options safely
+
+REAL IT SECURITY KNOWLEDGE:
+- Password reset is common but SENSITIVE task
+- Must verify identity before proceeding
+- Never email/text actual passwords
+- Always force password change on next login
+- Document everything for audit/compliance
+- Follow company security policy
+
+COMPLIANCE NOTES:
+- This request documented with timestamp
+- User identity verification logged
+- Password reset method documented
+- Follows company security procedures
+- Audit trail maintained for compliance
+
+RELATED IT BEST PRACTICES:
+- Implement Single Sign-On (SSO) where possible
+- Use Multi-Factor Authentication (MFA)
+- Enforce strong password policies
+- Regular security training for users
+- Periodic password changes
+- Compliance with data protection standards
+
+STATUS:
+Password Reset Completed - User Advised on Security
+
+CATEGORY:
+Account Management / Security / Access Control / Compliance
+
+
+  
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
