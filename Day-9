@@ -1,0 +1,176 @@
+TICKET TITLE:
+Microsoft Entra ID Security Groups and Role Assignment - Identity and Access Management
+
+ISSUE:
+Setting up Microsoft Entra ID security groups with role-based access control (RBAC) for organizational administration and support functions.
+
+TASKS COMPLETED:
+
+1. MICROSOFT ENTRA ID ACCESS:
+   - Accessed Microsoft Entra admin center (entra.microsoft.com)
+   - Navigated to Groups section
+   - Verified 11 users and 7 groups in tenant
+
+2. SECURITY GROUP CREATION (5 GROUPS):
+   Security groups differ from department groups:
+   - Department groups = Collaboration (Teams, SharePoint)
+   - Security groups = Permission/role control (who can do what)
+
+3. SECURITY GROUP #1 — ADMINS:
+   - Group name: Admins
+   - Description: Administrative Users
+   - Owner: MandeepAcharya
+   - Members: John Smith, Michael Brown, Robert Garcia
+   - Entra Role Assigned: Global Administrator
+   - Permissions: Full system access, user management, all admin functions
+
+4. SECURITY GROUP #2 — USER SUPPORT:
+   - Group name: User Support
+   - Description: User Support Team
+   - Owner: MandeepAcharya
+   - Members: Sarah Johnson, Emily Davis, James Taylor
+   - Entra Role Assigned: User Administrator
+   - Permissions: Manage user accounts, reset passwords, assign licenses
+
+5. SECURITY GROUP #3 — HELPDESK:
+   - Group name: Helpdesk
+   - Description: Helpdesk Support Team
+   - Owner: MandeepAcharya
+   - Members: Michael Brown, Lisa Anderson, David Wilson
+   - Entra Role Assigned: Helpdesk Administrator
+   - Permissions: Support user issues, device management, basic troubleshooting
+
+6. SECURITY GROUP #4 — COMPLIANCE:
+   - Group name: Compliance
+   - Description: Compliance and Security Team
+   - Owner: MandeepAcharya
+   - Members: Jessica Martinez, Robert Garcia, Amanda Thomas
+   - Entra Role Assigned: Security Administrator
+   - Permissions: Security policies, access reviews, risk management
+
+7. SECURITY GROUP #5 — GUESTS:
+   - Group name: Guests
+   - Description: Guest User Access Team
+   - Owner: MandeepAcharya
+   - Members: John Smith, Sarah Johnson, Emily Davis
+   - Entra Role Assigned: Guest Inviter
+   - Permissions: Invite external guests, manage guest access
+
+ENTRA ID ROLES EXPLAINED:
+
+Role | Permissions | Real Use
+---|---|---
+Global Administrator | Full access to all admin features | CEO, CTO, Main IT Admin
+User Administrator | Manage users, reset passwords, licenses | HR, User Support Team
+Helpdesk Administrator | Support users, basic troubleshooting | IT Support, Help Desk
+Security Administrator | Security policies, access control | Security Team, Compliance
+Guest Inviter | Invite external users | Collaboration managers
+
+KEY LEARNING — ROLE-BASED ACCESS CONTROL (RBAC):
+
+Advantage of assigning roles to GROUPS vs individuals:
+✓ Scalability: Add/remove users from group = add/remove permissions
+✓ Manageability: One role assignment for multiple people
+✓ Audit trail: Easy to track who has what permissions
+✓ Consistency: All group members have identical permissions
+✓ Security: Principle of least privilege (give minimum necessary access)
+
+REAL IT SCENARIO:
+
+Scenario: New employee joins company
+Process:
+1. Create user account (Day 8)
+2. Assign to department group (Day 8 - Sales, HR, IT, etc)
+3. Add to security group based on role (Day 9 - Helpdesk, User Support, etc)
+4. Security group automatically grants appropriate Entra role
+5. Employee has correct permissions instantly
+6. If promoted: Remove from one security group, add to another
+7. All permissions update automatically
+
+This is how enterprise IT handles access management!
+
+SECURITY BEST PRACTICES LEARNED:
+
+1. Principle of Least Privilege
+   - Give users ONLY permissions they need
+   - Don't give everyone admin access
+   - Review periodically
+
+2. Group-Based Access
+   - Assign roles to groups, not individuals
+   - Easier to audit and manage
+   - Scalable as company grows
+
+3. Separation of Duties
+   - Admins ≠ Helpdesk ≠ Compliance
+   - Different people, different permissions
+   - Prevents abuse
+
+4. Role Definitions
+   - Clear job titles = clear role assignments
+   - Global Administrator ≠ User Administrator
+   - Prevents privilege escalation
+
+REAL IT SUPPORT APPLICATIONS:
+
+- Employee onboarding (add to correct security groups)
+- Role changes (move between groups)
+- Department transfers (update group memberships)
+- Access reviews (audit who has what roles)
+- Permission troubleshooting (check group membership)
+- Compliance audits (security role tracking)
+
+SKILLS GAINED:
+
+✓ Microsoft Entra ID navigation
+✓ Security group creation
+✓ Role-based access control (RBAC)
+✓ User role assignment via groups
+✓ Permission management
+✓ Identity and access management (IAM)
+✓ Organizational hierarchy setup
+✓ Admin delegation
+
+COMPARISON — GROUPS vs ROLES:
+
+Feature | Department Groups | Security Groups
+---|---|---
+Purpose | Collaboration | Permission Control
+Created in | Microsoft 365 Admin | Entra ID
+Used for | Teams, SharePoint | Role Assignment
+Members | Colleagues in dept | People with same role
+Example | Sales Department | Helpdesk Team
+
+ENTRA ID FEATURES USED:
+
+- Security group creation
+- Role assignment to groups
+- Role-based access control
+- User access management
+- Organizational hierarchy
+- Permission delegation
+
+REAL AUSTRALIAN IT JOB CONTEXT:
+
+Most Australian companies use this exact structure:
+- 1-2 Global Admins (executives or senior IT)
+- Multiple User Admins (HR, IT support)
+- Helpdesk team (first-line support)
+- Compliance/Security team (if large company)
+
+This Day 9 training matches REAL job requirements!
+
+NEXT STEPS (Future Days):
+
+- Implement Multi-Factor Authentication (MFA)
+- Configure conditional access policies
+- Set up privileged identity management (PIM)
+- Create custom roles
+- Implement device compliance
+- Set up Azure AD Privileged Access Groups
+
+STATUS:
+Security Groups Created - Role Assignment Complete - Identity & Access Management Configured
+
+CATEGORY:
+Microsoft Entra ID / Identity Management / Role-Based Access Control / Security Administration
