@@ -1,0 +1,106 @@
+TICKET TITLE:
+Microsoft 365 Tenant Setup - User Creation and Department Groups Configuration
+
+ISSUE:
+Setting up new Microsoft 365 Business Premium tenant with user management and organizational department structure.
+
+TASKS COMPLETED:
+
+1. MICROSOFT 365 TENANT CREATION:
+   - Created Microsoft 365 Business Premium trial tenant
+   - Set up admin account (MandeepAcharya@ITLab01.onmicrosoft.com)
+   - Accessed Microsoft 365 Admin Center
+   - Configured tenant settings
+
+2. USER CREATION - 10 USERS CREATED:
+   - John Smith (john.smith@ITLab01.onmicrosoft.com)
+   - Sarah Johnson (sarah.johnson@ITLab01.onmicrosoft.com)
+   - Michael Brown (michael.brown@ITLab01.onmicrosoft.com)
+   - Emily Davis (emily.davis@ITLab01.onmicrosoft.com)
+   - David Wilson (david.wilson@ITLab01.onmicrosoft.com)
+   - Jessica Martinez (jessica.martinez@ITLab01.onmicrosoft.com)
+   - Robert Garcia (robert.garcia@ITLab01.onmicrosoft.com)
+   - Lisa Anderson (lisa.anderson@ITLab01.onmicrosoft.com)
+   - James Taylor (james.taylor@ITLab01.onmicrosoft.com)
+   - Amanda Thomas (amanda.thomas@ITLab01.onmicrosoft.com)
+
+3. LICENSE ASSIGNMENT:
+   - Assigned Microsoft 365 Business Premium license to all 10 users
+   - Verified all users show licensed status
+   - Enabled Teams, SharePoint, OneDrive access for all users
+
+4. MICROSOFT 365 GROUPS CREATED (5 DEPARTMENTS):
+   - HR (Owner: John Smith) - Human Resources Department
+   - IT (Owner: Michael Brown) - Information Technology Department
+   - Sales (Owner: Sarah Johnson) - Sales Department
+   - Marketing (Owner: Emily Davis) - Marketing Department
+   - Finance (Owner: David Wilson) - Finance Department
+
+5. GROUP CONFIGURATION:
+   - Set all groups to Private (restricted access)
+   - Assigned department owners for each group
+   - Groups ready for member assignment
+
+REAL IT SCENARIO:
+
+Scenario: New company onboarding
+Process:
+1. Create Microsoft 365 tenant
+2. Create user accounts for all employees (10 users)
+3. Assign appropriate licenses
+4. Create department groups
+5. Add users to their respective departments
+6. Configure collaboration tools (Teams, SharePoint)
+
+This is exactly what happens when a company gets Microsoft 365!
+
+LEARNING OUTCOMES:
+- Understanding Microsoft 365 Admin Center interface
+- User account creation and management
+- License assignment procedures
+- Group/Department organization
+- Organizational hierarchy setup
+- User access and permissions
+
+SKILLS GAINED:
+✓ Microsoft 365 tenant administration
+✓ User creation and management (bulk operations)
+✓ License assignment to multiple users
+✓ Microsoft 365 group creation
+✓ Department organization structure
+✓ User access control
+✓ Admin Center navigation
+
+TOOLS USED:
+- Microsoft 365 Admin Center
+- User management interface
+- Group management interface
+- License management tools
+
+REAL IT SUPPORT APPLICATIONS:
+- Employee onboarding (create accounts, assign licenses)
+- Department reorganization (create new groups, assign users)
+- Access management (organize users by department)
+- Collaboration setup (Teams groups, SharePoint sites)
+- License management (track and assign subscriptions)
+
+COMMON IT TASKS PRACTICED:
+- Bulk user creation
+- License assignment
+- Department group setup
+- User organization
+- Admin delegation (assigning group owners)
+
+NEXT STEPS (Future Days):
+- Add members to department groups
+- Configure SharePoint team sites per department
+- Set up Teams channels per department
+- Configure email distribution lists
+- Implement security policies
+- Set up conditional access rules
+
+STATUS:
+Tenant Setup Completed - Ready for User Group Assignment and Collaboration Setup
+
+CATEGORY:
+Microsoft 365 Administration / User Management / Organizational Configuration
