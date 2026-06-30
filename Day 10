@@ -1,0 +1,47 @@
+TICKET TITLE:
+Service Desk Password Management - Reset, Force Change, and Account Control
+
+ISSUE:
+Common Service Desk tasks: password reset, force password change, and account blocking.
+
+TASKS COMPLETED:
+
+1. PASSWORD RESET (John Smith):
+   - User forgot password
+   - Reset password in Microsoft 365 Admin Center
+   - Generated temporary password
+   - User logs in with temp password and continues working
+
+2. FORCE PASSWORD CHANGE (Sarah Johnson):
+   - User password requires change
+   - Reset password + checked "Require password change on next sign-in"
+   - User MUST create new password on first login
+   - Cannot proceed until password changed
+
+3. BLOCK SIGN-IN (Michael Brown):
+   - Account blocked for security
+   - Status shows "Sign-in blocked"
+   - User cannot login even with correct password
+   - Can be unblocked when needed
+
+REAL SCENARIOS:
+
+- Forgotten password: Reset + provide temp password (2 mins)
+- Expired password: Force change on next login (3 mins)
+- Account locked: Unlock account (2 mins)
+- Suspicious activity: Block sign-in immediately (5 mins)
+
+SKILLS GAINED:
+
+✓ Password reset procedures
+✓ Temporary password generation
+✓ Force password change
+✓ Account blocking/unblocking
+✓ Service Desk ticket handling
+✓ User authentication troubleshooting
+
+STATUS:
+Password Management Tasks Completed - Service Desk Procedures Ready
+
+CATEGORY:
+Service Desk / User Account Management / Password Management / Authentication
