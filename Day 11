@@ -1,0 +1,97 @@
+TICKET TITLE:
+Microsoft 365 Email Administration - Mailboxes, Shared Mailboxes, and Distribution Groups
+
+ISSUE:
+Setting up email infrastructure in Microsoft 365: user mailboxes, shared mailboxes for team collaboration, and distribution groups for email lists.
+
+TASKS COMPLETED:
+
+1. USER MAILBOXES:
+   - All 10 users automatically have individual mailboxes upon user creation
+   - Each user gets personal email: firstname.lastname@ITLab001.onmicrosoft.com
+   - Users can only access their own mailbox
+   - Example mailboxes:
+     * john.smith@ITLab001.onmicrosoft.com
+     * sarah.johnson@ITLab001.onmicrosoft.com
+     * michael.brown@ITLab001.onmicrosoft.com
+
+2. SHARED MAILBOX #1 — SUPPORT:
+   - Email address: support@ITLab001.onmicrosoft.com
+   - Type: Shared mailbox
+   - Members (can all access and manage):
+     * Sarah Johnson
+     * Emily Davis
+     * James Taylor
+   - Purpose: Support team shares one email address
+   - All 3 can read, send, and delete emails from this mailbox
+
+3. SHARED MAILBOX #2 — HR-TEAM:
+   - Email address: hr@ITLab001.onmicrosoft.com
+   - Type: Shared mailbox
+   - Members (with Manage permission):
+     * John Smith
+     * Michael Brown
+     * Robert Garcia
+   - Purpose: HR team shares one email address
+   - All 3 can manage HR communications
+
+4. DISTRIBUTION GROUP — SALES-TEAM:
+   - Email address: sales-team@ITLab001.onmicrosoft.com
+   - Type: Distribution group (email list)
+   - Members (receive emails):
+     * Sarah Johnson
+     * Emily Davis
+     * Jessica Martinez
+   - Purpose: Send one email to multiple people at once
+   - When you email sales-team@..., all 3 members receive it instantly
+
+KEY DIFFERENCES LEARNED:
+
+Type | Access | Use Case
+---|---|---
+User Mailbox | Individual only | Personal email
+Shared Mailbox | Multiple people | Team collaboration
+Distribution Group | Email list | Send to group
+
+REAL SCENARIOS:
+
+Scenario 1 - User Mailbox:
+- Employee John Smith gets john.smith@company.com
+- Only John can access it
+- Personal work emails
+
+Scenario 2 - Shared Mailbox:
+- Support team shares support@company.com
+- Sarah, Emily, James all access same mailbox
+- They manage customer emails together
+
+Scenario 3 - Distribution Group:
+- Send one email to sales-team@company.com
+- Goes to all sales people at once
+- Used for announcements, newsletters
+
+SKILLS GAINED:
+
+✓ User mailbox creation (automatic)
+✓ Shared mailbox setup
+✓ Managing shared mailbox members
+✓ Delegation and permissions (Read/Manage)
+✓ Distribution group creation
+✓ Email list management
+✓ Email alias management
+✓ Exchange Admin Center navigation
+
+REAL IT SUPPORT APPLICATIONS:
+
+Daily tasks:
+- Create shared mailbox for new team
+- Add/remove members from shared mailboxes
+- Create distribution lists for departments
+- Troubleshoot email access issues
+- Manage mailbox permissions
+
+STATUS:
+Email Infrastructure Setup Complete - Mailboxes, Shared Mailboxes, and Distribution Groups Configured
+
+CATEGORY:
+Microsoft 365 Administration / Email Management / Exchange Online / User Provisioning
