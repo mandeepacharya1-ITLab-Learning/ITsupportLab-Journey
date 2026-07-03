@@ -24,29 +24,6 @@ I am learning practical IT support skills through daily hands-on labs, real-worl
 
 ---
 
-## 📂 Repository Structure
-
-ITSupportLab-Journey/
-
-├── Day1/
-
-│   ├── Day1-Part1-Ticket.txt
-
-│   ├── Day1-Part2-Ticket.txt
-
-│   └── Notes.md
-
-├── Day2/
-
-│   ├── Day2-Ticket.txt
-
-│   └── Screenshots/
-
-├── Day3/
-
-│   └── (Coming soon)
-
-└── README.md
 
 ---
 
@@ -118,5 +95,5 @@ Professional IT support tickets are created for each lab, demonstrating:
 
 ---
 
-**Last Updated:** [24/06/2026]
+
 **Status:** 🟢 Active - Daily Updates
