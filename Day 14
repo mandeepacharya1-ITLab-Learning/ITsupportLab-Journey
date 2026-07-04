@@ -1,0 +1,165 @@
+TICKET TITLE:
+Microsoft 365 Service Desk - Real-World Ticket Simulation and Resolution
+
+ISSUE:
+Resolving 5 common Microsoft 365 support tickets that occur daily in IT support environments.
+
+TICKETS RESOLVED:
+
+TICKET #1 — USER CANNOT LOGIN:
+Issue: User unable to login, password rejected
+Root Cause: Account was blocked
+Actions Taken:
+- Accessed user profile in Microsoft 365 Admin Center
+- Verified account was blocked
+- Unblocked the account
+- Generated one-time password (OTP)
+- Required password change on next login
+Resolution: User account restored, new password required
+Time to resolve: 5 minutes
+
+TICKET #2 — MAILBOX FULL:
+Issue: User reported mailbox full, cannot send emails
+Investigation: Checked Exchange Admin Center → Mailboxes
+Finding: Sarah Johnson using 0.8 GB of 99 GB (not full!)
+Root Cause: User mistaken or email client issue
+Actions Taken:
+- Confirmed mailbox has plenty of storage
+- Advised user to clear email client cache
+- Suggested restarting Outlook/Teams
+- Recommended deleting old emails
+Resolution: Storage is available, user error
+Time to resolve: 3 minutes
+
+TICKET #3 — TEAMS ACCESS ISSUE:
+Issue: User cannot access Sales Support team
+Investigation: Checked Teams Admin Center → Sales Support team members
+Finding: Jessica Martinez IS a member of the team
+Root Cause: Not a membership issue
+Actions Taken:
+- Verified user membership in team
+- Advised restarting Teams app
+- Suggested clearing Teams cache
+- Recommended logging out and back in
+Resolution: Likely client cache issue, user regains access
+Time to resolve: 4 minutes
+
+TICKET #4 — MFA ISSUE:
+Issue: User cannot access MFA code to login
+Root Cause: MFA method no longer working
+Actions Taken:
+- Accessed Entra ID → Multi-Factor Authentication
+- Temporarily disabled MFA
+- Reset MFA settings
+- User registered new contact method (phone/authenticator app)
+- Re-enabled MFA with new method
+Resolution: MFA reset and reconfigured with new method
+Time to resolve: 7 minutes
+
+TICKET #5 — FORGOTTEN PASSWORD:
+Issue: User cannot remember password, locked out of account
+Root Cause: User forgot credentials
+Actions Taken:
+- Verified user identity (security check)
+- Accessed Microsoft 365 Admin Center → Users
+- Selected user (Robert Garcia)
+- Generated temporary password
+- Checked "Require password change on next login"
+- Provided temporary password to user
+- User logs in and creates new password
+Resolution: Account access restored, new password created
+Time to resolve: 3 minutes
+
+REAL IT SUPPORT KNOWLEDGE:
+
+Common Tickets Distribution:
+- Password resets: 30%
+- Account access issues: 25%
+- Email/mailbox issues: 20%
+- MFA/authentication: 15%
+- Teams/collaboration: 10%
+
+Average Resolution Time: 4 minutes per ticket
+
+ADMIN CENTERS — WHEN TO USE WHICH:
+
+Task | Admin Center | Why
+---|---|---
+Reset password | Microsoft 365 Admin | User management
+Create users | Microsoft 365 Admin | Central hub
+Assign licenses | Microsoft 365 Admin | License tracking
+Reset MFA | Entra ID | Security settings
+Set policies | Entra ID | Identity/access control
+Create security groups | Entra ID | Role management
+Create teams | Teams Admin | Team management
+Email rules | Exchange Admin | Email-specific
+
+SERVICE DESK BEST PRACTICES:
+
+1. Verify User Identity
+   - Never reset without verification
+   - Ask security questions
+   - Check ID if in-person
+
+2. Document Everything
+   - Record all actions
+   - Note troubleshooting steps
+   - Log time to resolution
+
+3. Communicate Clearly
+   - Explain issue to user
+   - Provide simple steps
+   - Follow up after resolution
+
+4. Escalate When Needed
+   - If issue persists, escalate
+   - Document for higher support
+   - Don't spend >15 mins on one ticket
+
+5. Know Your Tools
+   - Microsoft 365 Admin
+   - Entra ID
+   - Exchange Admin
+   - Teams Admin
+   - Each has specific purpose
+
+REAL AUSTRALIAN IT JOB — SERVICE DESK ROLE:
+
+Responsibilities:
+✓ Resolve user issues within SLA (1 hour)
+✓ Document tickets properly
+✓ Handle 20-30 tickets per day
+✓ Escalate complex issues
+✓ Follow company procedures
+✓ Maintain professionalism
+
+Skills Required:
+✓ Microsoft 365 knowledge
+✓ Troubleshooting ability
+✓ Customer service skills
+✓ Technical documentation
+✓ Time management
+
+SKILLS GAINED FROM DAY 14:
+
+✓ Real-world ticket resolution
+✓ User troubleshooting
+✓ Account management
+✓ MFA configuration
+✓ Multi-admin center navigation
+✓ Service desk procedures
+✓ Problem-solving approach
+
+NEXT STEPS (Future Days):
+
+- Advanced troubleshooting
+- Ticket documentation
+- SLA management
+- Escalation procedures
+- Team leadership
+
+STATUS:
+5 Real-World Tickets Resolved - Service Desk Competency Demonstrated
+
+CATEGORY:
+Service Desk / User Support / Ticket Resolution / Troubleshooting
