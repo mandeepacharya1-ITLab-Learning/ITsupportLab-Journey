@@ -1,0 +1,113 @@
+TICKET TITLE:
+Networking Fundamentals - TCP/IP Configuration and Manual Network Setup
+
+ISSUE:
+Understanding and configuring core networking components: IP addressing, DNS, DHCP, gateway, and subnet mask.
+
+TASKS COMPLETED:
+
+1. NETWORK CONFIGURATION APPLIED:
+   - IPv4 Address: 192.168.4.50 (Changed from DHCP to Static)
+   - Subnet Mask: 255.255.252.0
+   - Default Gateway: 192.168.4.1
+   - Preferred DNS: 8.8.8.8 (Changed from 193.168.4.1)
+   - Alternate DNS: 8.8.4.4
+   - Verified with ipconfig command
+
+2. NETWORKING CONCEPTS LEARNED:
+
+IP ADDRESS (IPv4):
+- Format: 192.168.x.x
+- Purpose: Unique computer address on network
+- Static: Manual assignment (servers)
+- DHCP: Automatic assignment (workstations)
+
+SUBNET MASK (255.255.252.0):
+- Purpose: Defines network size
+- Shows which computers are on same network
+- Determines if device is local or remote
+
+DEFAULT GATEWAY (192.168.4.1):
+- Purpose: Router/door to internet
+- Route for packets going outside network
+- Must be configured for internet access
+
+DNS SERVERS (8.8.8.8 and 8.8.4.4):
+- Purpose: Translates domain names to IP addresses
+- Example: google.com → 142.251.32.46
+- Primary and alternate for redundancy
+
+3. STATIC vs DHCP EXPLAINED:
+
+DHCP (Automatic):
+- Used for: Employee laptops, guest Wi-Fi, mobile devices
+- Advantage: Easy, flexible, no manual setup
+- Disadvantage: IP changes frequently
+
+STATIC (Manual):
+- Used for: Servers, printers, cameras, critical devices
+- Advantage: IP always same, reliable
+- Disadvantage: Manual setup required
+
+Real example:
+- Printer with STATIC IP (192.168.4.200): Always accessible
+- Printer with DHCP IP: Can't find it when IP changes
+
+4. WHY EACH COMPONENT MATTERS:
+
+IPv4 Address: Computer's location on network
+Subnet Mask: Defines neighborhood boundaries
+Gateway: Exit door to internet
+DNS: Phone book for internet (names to IPs)
+
+How they work together:
+- Same subnet = direct communication
+- Different subnet = use gateway
+- Need website = use DNS to find IP
+
+REAL IT JOB APPLICATIONS:
+
+SERVER SETUP:
+- Set STATIC IP (192.168.4.100)
+- Configure DNS (8.8.8.8)
+- Set gateway (192.168.4.1)
+- Server always accessible at same address
+
+NETWORK TROUBLESHOOTING:
+- User can't connect: Check ipconfig
+- No IP: Enable DHCP or assign static
+- No DNS: Set DNS to 8.8.8.8
+- Can't reach server: Verify gateway
+
+DEVICE MANAGEMENT:
+- Printers: STATIC IPs (fixed address)
+- Servers: STATIC IPs (fixed address)
+- Employees: DHCP (flexible)
+- Maintain network documentation
+
+SKILLS GAINED:
+
+✓ IPv4 configuration
+✓ Static IP assignment
+✓ DNS server setup
+✓ Gateway configuration
+✓ Subnet mask understanding
+✓ Network troubleshooting basics
+✓ ipconfig command usage
+✓ DHCP vs Static knowledge
+
+COMMON NETWORKING ISSUES SOLVED:
+
+Issue | Cause | Solution
+---|---|---
+No internet | Wrong DNS | Change to 8.8.8.8
+Can't reach server | Wrong gateway | Verify gateway IP
+Printer won't print | DHCP IP changed | Set STATIC IP
+Can't find device | Wrong subnet | Verify subnet mask
+Network slow | Configuration issue | Check DNS settings
+
+STATUS:
+Networking Fundamentals Configured - Manual Network Setup Completed
+
+CATEGORY:
+Networking / TCP/IP / Network Configuration / IT Infrastructure
