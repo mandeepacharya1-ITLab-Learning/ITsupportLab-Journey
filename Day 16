@@ -1,0 +1,135 @@
+TICKET TITLE:
+Advanced Networking Commands - Connectivity Troubleshooting and Diagnosis
+
+ISSUE:
+Learning and applying advanced networking commands for real-world troubleshooting: ping, tracert, nslookup, netstat, arp.
+
+COMMANDS LEARNED:
+
+1. PING COMMAND:
+   Purpose: Test if device is reachable
+   Syntax: ping 192.168.4.1
+   Shows: Response time and connectivity status
+   Lab result: ping 192.168.4.1 → SUCCESS (4 packets received) ✅
+
+2. TRACERT COMMAND:
+   Purpose: Show path packets take to destination
+   Syntax: tracert google.com
+   Shows: Each router (hop) along the way
+   Lab: Traced route showing multiple hops to destination
+
+3. NSLOOKUP COMMAND:
+   Purpose: Test DNS (translate domain to IP)
+   Syntax: nslookup google.com
+   Shows: IP address for domain name
+   Lab: nslookup google.com → 8.8.8.8 (DNS working) ✅
+
+4. ARP COMMAND:
+   Purpose: Find devices on network with MAC addresses
+   Syntax: arp -a (show all devices)
+   Shows: Internet Address, Physical Address (MAC), Type
+   Lab: Found multiple devices on network
+
+5. NETSTAT COMMAND:
+   Purpose: Show active network connections
+   Syntax: netstat -ano
+   Shows: All programs connected to network
+
+REAL TROUBLESHOOTING LAB:
+
+Scenario: User says "I can't reach file server!"
+
+Steps taken:
+1. Verified your IP: 192.168.4.50 (using ipconfig)
+2. Found other devices: arp -a (ARP showed network devices)
+3. Tested device 224.0.0.22: ping failed (0 received) ❌
+4. Tested gateway 192.168.4.1: ping succeeded (4 received) ✅
+
+Diagnosis: Gateway/router working. Issue is with specific device.
+
+PING vs TRACERT:
+
+PING: "Is device reachable?"
+- ping 192.168.4.1 → Device responds or times out
+- Quick connectivity test
+
+TRACERT: "What's the path to device?"
+- tracert google.com → Shows each router hop
+- Detailed route analysis
+
+TROUBLESHOOTING FLOWCHART:
+
+Step 1: Test your computer
+ping 127.0.0.1 → Self-test (should always work)
+
+Step 2: Test gateway/router
+ping 192.168.4.1 → Router reachable? ✅
+
+Step 3: Test internet
+ping 8.8.8.8 → Internet working?
+
+Step 4: Test specific device
+arp -a → Find device IP
+ping <IP> → Device reachable?
+
+Step 5: Diagnose problem
+- Gateway fails = Network problem
+- Device fails = Device problem
+- Internet fails = ISP problem
+
+REAL IT JOB SCENARIOS:
+
+Scenario 1: "No internet access"
+Command: ping 8.8.8.8
+If fails: Call ISP (internet problem)
+
+Scenario 2: "Can't access printer"
+Command: arp -a (find printer IP)
+Command: ping 192.168.4.200
+If fails: Power on printer
+
+Scenario 3: "Network is very slow"
+Command: tracert google.com
+If hops are slow: Network congestion (restart router)
+
+Scenario 4: "Can't reach file server"
+Command: ping 192.168.4.100
+If fails: Server is offline (call admin)
+
+SKILLS GAINED:
+
+✓ PING command usage and interpretation
+✓ TRACERT path tracing through routers
+✓ NSLOOKUP DNS testing
+✓ ARP device discovery on network
+✓ NETSTAT connection analysis
+✓ Systematic troubleshooting methodology
+✓ Device connectivity diagnosis
+✓ Network problem identification
+
+COMMANDS QUICK REFERENCE:
+
+Command | Purpose | Syntax
+---|---|---
+PING | Test connectivity | ping 192.168.4.1
+TRACERT | Show route | tracert google.com
+NSLOOKUP | DNS test | nslookup google.com
+ARP | Find devices | arp -a
+NETSTAT | Show connections | netstat -ano
+IPCONFIG | Network config | ipconfig /all
+
+COMMON ISSUES AND FIXES:
+
+Issue | Test | Fix
+---|---|---
+No internet | ping 8.8.8.8 | Restart router
+Can't reach device | ping 192.168.x.x | Power on device
+Slow network | tracert destination | Restart router
+DNS broken | nslookup google.com | Change DNS to 8.8.8.8
+Device not found | arp -a | Check if device is online
+
+STATUS:
+Advanced Networking Commands Mastered - Connectivity Troubleshooting Lab Completed
+
+CATEGORY:
+Networking / Troubleshooting / Network Diagnostics / IT Support
